@@ -4,6 +4,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScintillaFindReplaceDemo", "ScintillaFindReplace\ScintillaFindReplaceDemo.csproj", "{9F0C06E1-05A7-499D-AB7A-819A9963B21E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{3C17A70C-B5CE-4B60-95F9-71DD53CC25FB} = {3C17A70C-B5CE-4B60-95F9-71DD53CC25FB}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScintillaFindReplaceControl", "ScintillaFindReplaceControl\ScintillaFindReplaceControl.csproj", "{3C17A70C-B5CE-4B60-95F9-71DD53CC25FB}"
 EndProject

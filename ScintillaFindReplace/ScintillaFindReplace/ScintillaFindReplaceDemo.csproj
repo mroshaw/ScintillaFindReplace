@@ -84,6 +84,12 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ScintillaFindReplaceControl\ScintillaFindReplaceControl.csproj">
+      <Project>{3c17a70c-b5ce-4b60-95f9-71dd53cc25fb}</Project>
+      <Name>ScintillaFindReplaceControl</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

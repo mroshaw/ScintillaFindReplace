@@ -52,6 +52,7 @@
             this.buttonFind.TabIndex = 0;
             this.buttonFind.Text = "Find";
             this.buttonFind.UseVisualStyleBackColor = true;
+            this.buttonFind.Click += new System.EventHandler(this.buttonFind_Click);
             // 
             // buttonReplace
             // 
@@ -61,6 +62,7 @@
             this.buttonReplace.TabIndex = 1;
             this.buttonReplace.Text = "Replace";
             this.buttonReplace.UseVisualStyleBackColor = true;
+            this.buttonReplace.Click += new System.EventHandler(this.buttonReplace_Click);
             // 
             // scintilla2
             // 
@@ -81,6 +83,7 @@
             this.radioButtonScintilla1.TabStop = true;
             this.radioButtonScintilla1.Text = "Scintilla 1";
             this.radioButtonScintilla1.UseVisualStyleBackColor = true;
+            this.radioButtonScintilla1.CheckedChanged += new System.EventHandler(this.radioButtonScintilla1_CheckedChanged);
             // 
             // radioButtonScintilla2
             // 
@@ -91,6 +94,7 @@
             this.radioButtonScintilla2.TabIndex = 5;
             this.radioButtonScintilla2.Text = "Scintilla 2";
             this.radioButtonScintilla2.UseVisualStyleBackColor = true;
+            this.radioButtonScintilla2.CheckedChanged += new System.EventHandler(this.radioButtonScintilla2_CheckedChanged);
             // 
             // Demo
             // 
