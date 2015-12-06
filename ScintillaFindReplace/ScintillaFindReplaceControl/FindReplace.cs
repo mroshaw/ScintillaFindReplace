@@ -104,7 +104,7 @@ namespace ScintillaFindReplaceControl
         private void buttonReplaceNext_Click(object sender, EventArgs e)
         {
             SetReplaceSearchFlags();
-            var pos = ReplaceNext(textBoxFindRep.Text, textBoxReplace.Text);
+            ReplaceNext(textBoxFindRep.Text, textBoxReplace.Text);
         }
 
         /// <summary>
